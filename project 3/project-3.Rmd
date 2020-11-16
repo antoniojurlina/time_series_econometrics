@@ -1,5 +1,5 @@
 ---
-title: "Homework 3"
+title: "Project 3"
 author: "Antonio Jurlina"
 date: "3/12/2020"
 output: pdf_document
@@ -8,11 +8,9 @@ geometry: margin=1in
 urlcolor: blue
 ---
 
-### ECO532
 ### Time Series Econometrics
 ### Dr. Wiesen
-### HW3
-### Due: Friday, March 13  
+### Project 3
 
 Directions: Students are encouraged to work together. However, students should think for themselves; do not simply copy what your classmate does. 
 
@@ -161,5 +159,5 @@ According to the $y_t$ model, the politican is expected to win the next three pr
 
 \vspace*{\fill}
 
-More at [github.com/antoniojurlina/ECO532](https://github.com/antoniojurlina/ECO532)
+More at [https://github.com/antoniojurlina/time_series_econometrics](https://github.com/antoniojurlina/time_series_econometrics)
 
