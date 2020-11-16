@@ -1,0 +1,489 @@
+date,revenue,type,subtype
+2007-01-01,5585391.37,Net Toll Revenue,NA
+2007-01-01,-152312.18,Volume Discount,NA
+2007-01-01,948672.15,Commuter Revenue,NA
+2007-02-01,5348570.970000001,Net Toll Revenue,NA
+2007-02-01,-132301.23,Volume Discount,NA
+2007-02-01,69840.62000000001,Commuter Revenue,NA
+2007-03-01,6031151.74,Net Toll Revenue,NA
+2007-03-01,-153285.18,Volume Discount,NA
+2007-03-01,30581.649999999998,Commuter Revenue,NA
+2007-04-01,6017278.04,Net Toll Revenue,NA
+2007-04-01,-135100.03,Volume Discount,NA
+2007-04-01,910051.69,Commuter Revenue,NA
+2007-05-01,7124931.6,Net Toll Revenue,NA
+2007-05-01,-151063.64,Volume Discount,NA
+2007-05-01,89757.5,Commuter Revenue,NA
+2007-06-01,7505550.07,Net Toll Revenue,NA
+2007-06-01,-142469.21000000002,Volume Discount,NA
+2007-06-01,14955,Commuter Revenue,NA
+2007-07-01,8656612.4,Net Toll Revenue,NA
+2007-07-01,-184492.76,Volume Discount,NA
+2007-07-01,912937.4600000001,Commuter Revenue,NA
+2007-08-01,9282030.870000001,Net Toll Revenue,NA
+2007-08-01,-157411.63,Volume Discount,NA
+2007-08-01,87806.6,Commuter Revenue,NA
+2007-09-01,7327143.76,Net Toll Revenue,NA
+2007-09-01,-156117.44999999998,Volume Discount,NA
+2007-09-01,26437.9,Commuter Revenue,NA
+2007-10-01,7215918.819999999,Net Toll Revenue,NA
+2007-10-01,-182216.41,Volume Discount,NA
+2007-10-01,917290.26,Commuter Revenue,NA
+2007-11-01,6424181.6,Net Toll Revenue,NA
+2007-11-01,-152200.53,Volume Discount,NA
+2007-11-01,77158.1,Commuter Revenue,NA
+2007-12-01,5779192.18,Net Toll Revenue,NA
+2007-12-01,-167902.54,Volume Discount,NA
+2007-12-01,15309.25,Commuter Revenue,NA
+2008-01-01,5628871.44,Net Toll Revenue,NA
+2008-01-01,-155948.67,Volume Discount,NA
+2008-01-01,955186.26,Commuter Revenue,NA
+2008-02-01,5356831.42,Net Toll Revenue,NA
+2008-02-01,-138575.52,Volume Discount,NA
+2008-02-01,71782.35,Commuter Revenue,NA
+2008-03-01,5885568.92,Net Toll Revenue,NA
+2008-03-01,-150392.8,Volume Discount,NA
+2008-03-01,27534.649999999998,Commuter Revenue,NA
+2008-04-01,6178643.149999999,Net Toll Revenue,NA
+2008-04-01,-147898.64,Volume Discount,NA
+2008-04-01,900704.54,Commuter Revenue,NA
+2008-05-01,6872633.28,Net Toll Revenue,NA
+2008-05-01,-152706.21000000002,Volume Discount,NA
+2008-05-01,91225.85,Commuter Revenue,NA
+2008-06-01,7172495.859999999,Net Toll Revenue,NA
+2008-06-01,-158082.18,Volume Discount,NA
+2008-06-01,27116.55,Commuter Revenue,NA
+2008-07-01,8575645.8,Net Toll Revenue,NA
+2008-07-01,-163575.2,Volume Discount,NA
+2008-07-01,892570.49,Commuter Revenue,NA
+2008-08-01,8715354.49,Net Toll Revenue,NA
+2008-08-01,-156540.6,Volume Discount,NA
+2008-08-01,93437.9,Commuter Revenue,NA
+2008-09-01,6703167.45,Net Toll Revenue,NA
+2008-09-01,-177875.58,Volume Discount,NA
+2008-09-01,27315.149999999998,Commuter Revenue,NA
+2008-10-01,6813856.319999999,Net Toll Revenue,NA
+2008-10-01,-162130.91999999998,Volume Discount,NA
+2008-10-01,899414.74,Commuter Revenue,NA
+2008-11-01,5781048.609999999,Net Toll Revenue,NA
+2008-11-01,-142420.63,Volume Discount,NA
+2008-11-01,78283.7,Commuter Revenue,NA
+2008-12-01,5571741.31,Net Toll Revenue,NA
+2008-12-01,-158545.99,Volume Discount,NA
+2008-12-01,20615.35,Commuter Revenue,NA
+2009-01-01,5131289.76,Net Toll Revenue,NA
+2009-01-01,-132487.65,Volume Discount,NA
+2009-01-01,1117704.91,Commuter Revenue,NA
+2009-02-01,6309344.21,Net Toll Revenue,NA
+2009-02-01,-128445.53,Volume Discount,NA
+2009-02-01,173042.8,Commuter Revenue,NA
+2009-03-01,7062932.41,Net Toll Revenue,NA
+2009-03-01,-145496.88999999998,Volume Discount,NA
+2009-03-01,28391.55,Commuter Revenue,NA
+2009-04-01,7589368.74,Net Toll Revenue,NA
+2009-04-01,-143549.55,Volume Discount,NA
+2009-04-01,1134319.92,Commuter Revenue,NA
+2009-05-01,8437392.99,Net Toll Revenue,NA
+2009-05-01,-154244.47,Volume Discount,NA
+2009-05-01,131291,Commuter Revenue,NA
+2009-06-01,8937442.870000001,Net Toll Revenue,NA
+2009-06-01,-185694.66,Volume Discount,NA
+2009-06-01,34960.7,Commuter Revenue,NA
+2009-07-01,10876238.75,Net Toll Revenue,NA
+2009-07-01,-180482.03,Volume Discount,NA
+2009-07-01,1130012.8800000001,Commuter Revenue,NA
+2009-08-01,10962799.28,Net Toll Revenue,NA
+2009-08-01,-201021.21000000002,Volume Discount,NA
+2009-08-01,124361.65000000001,Commuter Revenue,NA
+2009-09-01,8941342.5,Net Toll Revenue,NA
+2009-09-01,-186550.49,Volume Discount,NA
+2009-09-01,76824.86,Commuter Revenue,NA
+2009-10-01,8570463.16,Net Toll Revenue,NA
+2009-10-01,-168262.87999999998,Volume Discount,NA
+2009-10-01,1097742.24,Commuter Revenue,NA
+2009-11-01,7398155.85,Net Toll Revenue,NA
+2009-11-01,-166005.69,Volume Discount,NA
+2009-11-01,126313.54,Commuter Revenue,NA
+2009-12-01,7230238.02,Net Toll Revenue,NA
+2009-12-01,-194812.96,Volume Discount,NA
+2009-12-01,31262.8,Commuter Revenue,NA
+2010-01-01,6425150.95,Net Toll Revenue,NA
+2010-01-01,-167442.63,Volume Discount,NA
+2010-01-01,1148069.23,Commuter Revenue,NA
+2010-02-01,6271721.17,Net Toll Revenue,NA
+2010-02-01,-148328.99,Volume Discount,NA
+2010-02-01,134583.1,Commuter Revenue,NA
+2010-03-01,7338312.859999999,Net Toll Revenue,NA
+2010-03-01,-160912.68,Volume Discount,NA
+2010-03-01,45297.02,Commuter Revenue,NA
+2010-04-01,7728729.13,Net Toll Revenue,NA
+2010-04-01,-139305.86,Volume Discount,NA
+2010-04-01,1114386.26,Commuter Revenue,NA
+2010-05-01,8464183.709999999,Net Toll Revenue,NA
+2010-05-01,-151304.29,Volume Discount,NA
+2010-05-01,123353.3,Commuter Revenue,NA
+2010-06-01,8885951.43,Net Toll Revenue,NA
+2010-06-01,-164056.97999999998,Volume Discount,NA
+2010-06-01,34696.28,Commuter Revenue,NA
+2010-07-01,10844943.61,Net Toll Revenue,NA
+2010-07-01,-157022.3,Volume Discount,NA
+2010-07-01,1107039.3,Commuter Revenue,NA
+2010-08-01,11147861.860000001,Net Toll Revenue,NA
+2010-08-01,-159058.27000000002,Volume Discount,NA
+2010-08-01,141972.05,Commuter Revenue,NA
+2010-09-01,8884428.739999998,Net Toll Revenue,NA
+2010-09-01,-149648.01,Volume Discount,NA
+2010-09-01,50283.350000000006,Commuter Revenue,NA
+2010-10-01,8644799.77,Net Toll Revenue,NA
+2010-10-01,-160983.33,Volume Discount,NA
+2010-10-01,1113330.6700000002,Commuter Revenue,NA
+2010-11-01,7542908.04,Net Toll Revenue,NA
+2010-11-01,-149588.91,Volume Discount,NA
+2010-11-01,138783.9,Commuter Revenue,NA
+2010-12-01,7263909.38,Net Toll Revenue,NA
+2010-12-01,-165167.53,Volume Discount,NA
+2010-12-01,24770.21,Commuter Revenue,NA
+2011-01-01,6486412.619999999,Net Toll Revenue,NA
+2011-01-01,-155045.52,Volume Discount,NA
+2011-01-01,1158180.1700000002,Commuter Revenue,NA
+2011-02-01,6217765.14,Net Toll Revenue,NA
+2011-02-01,-142931.11000000002,Volume Discount,NA
+2011-02-01,138455.9,Commuter Revenue,NA
+2011-03-01,7367625.26,Net Toll Revenue,NA
+2011-03-01,-154701.84999999998,Volume Discount,NA
+2011-03-01,32464.07,Commuter Revenue,NA
+2011-04-01,7394739.33,Net Toll Revenue,NA
+2011-04-01,-136024.46,Volume Discount,NA
+2011-04-01,1107507.8800000001,Commuter Revenue,NA
+2011-05-01,8285306.859999999,Net Toll Revenue,NA
+2011-05-01,-163150.77000000002,Volume Discount,NA
+2011-05-01,156598.75,Commuter Revenue,NA
+2011-06-01,8835010.75,Net Toll Revenue,NA
+2011-06-01,-170395.34999999998,Volume Discount,NA
+2011-06-01,42751.67,Commuter Revenue,NA
+2011-07-01,10684886.629999999,Net Toll Revenue,NA
+2011-07-01,-162869.97,Volume Discount,NA
+2011-07-01,1094382.51,Commuter Revenue,NA
+2011-08-01,10848537.83,Net Toll Revenue,NA
+2011-08-01,-169885.58,Volume Discount,NA
+2011-08-01,170887.5,Commuter Revenue,NA
+2011-09-01,8906082.59,Net Toll Revenue,NA
+2011-09-01,-138362.2,Volume Discount,NA
+2011-09-01,50716.119999999995,Commuter Revenue,NA
+2011-10-01,8369504.88,Net Toll Revenue,NA
+2011-10-01,-156402.93,Volume Discount,NA
+2011-10-01,1108374.1,Commuter Revenue,NA
+2011-11-01,7510933.01,Net Toll Revenue,NA
+2011-11-01,-146743.49,Volume Discount,NA
+2011-11-01,149158.2,Commuter Revenue,NA
+2011-12-01,7331203.659999999,Net Toll Revenue,NA
+2011-12-01,-151140.29,Volume Discount,NA
+2011-12-01,25141.43,Commuter Revenue,NA
+2012-01-01,6554032.78,Net Toll Revenue,NA
+2012-01-01,-136595.55,Volume Discount,Business
+2012-01-01,434555,Commuter Revenue,NA
+2012-02-01,6632328.42,Net Toll Revenue,NA
+2012-02-01,-129509.43999999999,Volume Discount,Business
+2012-02-01,436037.49000000005,Commuter Revenue,NA
+2012-03-01,7185806.52,Net Toll Revenue,NA
+2012-03-01,-153642.5,Volume Discount,Business
+2012-03-01,447470.93000000005,Commuter Revenue,NA
+2012-04-01,7431065.2700000005,Net Toll Revenue,NA
+2012-04-01,-140834.41999999998,Volume Discount,Business
+2012-04-01,439845.55,Commuter Revenue,NA
+2012-05-01,8415593.78,Net Toll Revenue,NA
+2012-05-01,-155965.49,Volume Discount,Business
+2012-05-01,436728.27,Commuter Revenue,NA
+2012-06-01,8930925.83,Net Toll Revenue,NA
+2012-06-01,-142785.18,Volume Discount,Business
+2012-06-01,446977.83,Commuter Revenue,NA
+2012-07-01,10561002.229999999,Net Toll Revenue,NA
+2012-07-01,-151031.47,Volume Discount,Business
+2012-07-01,439752.17,Commuter Revenue,NA
+2012-08-01,11116350.05,Net Toll Revenue,NA
+2012-08-01,-156051.97,Volume Discount,Business
+2012-08-01,431155.97000000003,Commuter Revenue,NA
+2012-09-01,8572714.07,Net Toll Revenue,NA
+2012-09-01,-121914.75,Volume Discount,Business
+2012-09-01,430973.62,Commuter Revenue,NA
+2012-10-01,8280815.37,Net Toll Revenue,NA
+2012-10-01,-152924.29,Volume Discount,Business
+2012-10-01,430384.11,Commuter Revenue,NA
+2012-11-01,9982165.54,Net Toll Revenue,NA
+2012-11-01,-164440.1,Volume Discount,Business
+2012-11-01,-482349.11,Volume Discount,Personal
+2012-11-01,0,Commuter Revenue,NA
+2012-12-01,9155771.97,Net Toll Revenue,NA
+2012-12-01,-145972.29,Volume Discount,Business
+2012-12-01,-442208.76,Volume Discount,Personal
+2012-12-01,0,Commuter Revenue,NA
+2013-01-01,9007519.82,Net Toll Revenue,NA
+2013-01-01,-170953.53,Volume Discount,Business
+2013-01-01,-530016.91,Volume Discount,Personal
+2013-01-01,0,Commuter Revenue,NA
+2013-02-01,7923006.9,Net Toll Revenue,NA
+2013-02-01,-143177.41,Volume Discount,Business
+2013-02-01,-394963.37,Volume Discount,Personal
+2013-02-01,0,Commuter Revenue,NA
+2013-03-01,9559173.55,Net Toll Revenue,NA
+2013-03-01,-168082.87,Volume Discount,Business
+2013-03-01,-538153.13,Volume Discount,Personal
+2013-03-01,0,Commuter Revenue,NA
+2013-04-01,9939385.4,Net Toll Revenue,NA
+2013-04-01,-187743.41999999998,Volume Discount,Business
+2013-04-01,-550356.7699999999,Volume Discount,Personal
+2013-04-01,0,Commuter Revenue,NA
+2013-05-01,11362970.9,Net Toll Revenue,NA
+2013-05-01,-198979.04,Volume Discount,Business
+2013-05-01,-596365.73,Volume Discount,Personal
+2013-05-01,0,Commuter Revenue,NA
+2013-06-01,11716080.69,Net Toll Revenue,NA
+2013-06-01,-174143.58,Volume Discount,Business
+2013-06-01,-536545.9600000001,Volume Discount,Personal
+2013-06-01,0,Commuter Revenue,NA
+2013-07-01,14023438.360000001,Net Toll Revenue,NA
+2013-07-01,-189184.84999999998,Volume Discount,Business
+2013-07-01,-554723.1699999999,Volume Discount,Personal
+2013-07-01,0,Commuter Revenue,NA
+2013-08-01,14749617.98,Net Toll Revenue,NA
+2013-08-01,-192134.25,Volume Discount,Business
+2013-08-01,-579877.4600000001,Volume Discount,Personal
+2013-08-01,0,Commuter Revenue,NA
+2013-09-01,11482405.139999999,Net Toll Revenue,NA
+2013-09-01,-140954.21000000002,Volume Discount,Business
+2013-09-01,-541876.3,Volume Discount,Personal
+2013-09-01,0,Commuter Revenue,NA
+2013-10-01,11393946.02,Net Toll Revenue,NA
+2013-10-01,-241214.05,Volume Discount,Business
+2013-10-01,-630293.97,Volume Discount,Personal
+2013-10-01,0,Commuter Revenue,NA
+2013-11-01,9856699.77,Net Toll Revenue,NA
+2013-11-01,-165423.24000000002,Volume Discount,Business
+2013-11-01,-512321.49000000005,Volume Discount,Personal
+2013-11-01,0,Commuter Revenue,NA
+2013-12-01,9400709.39,Net Toll Revenue,NA
+2013-12-01,-179271.86,Volume Discount,Business
+2013-12-01,-505630.27,Volume Discount,Personal
+2013-12-01,0,Commuter Revenue,NA
+2014-01-01,8852479.91,Net Toll Revenue,NA
+2014-01-01,-179357.31,Volume Discount,Business
+2014-01-01,-548152.1799999999,Volume Discount,Personal
+2014-02-01,8183582.51,Net Toll Revenue,NA
+2014-02-01,-152130.04,Volume Discount,Business
+2014-02-01,-436149.93000000005,Volume Discount,Personal
+2014-03-01,9574877.42,Net Toll Revenue,NA
+2014-03-01,-169135.46,Volume Discount,Business
+2014-03-01,-592993.15,Volume Discount,Personal
+2014-04-01,10127954.75,Net Toll Revenue,NA
+2014-04-01,-191296.61000000002,Volume Discount,Business
+2014-04-01,-593959.26,Volume Discount,Personal
+2014-05-01,11349739.860000001,Net Toll Revenue,NA
+2014-05-01,-186204.41999999998,Volume Discount,Business
+2014-05-01,-617909.3400000001,Volume Discount,Personal
+2014-06-01,12112891.3,Net Toll Revenue,NA
+2014-06-01,-187032.25,Volume Discount,Business
+2014-06-01,-596492.62,Volume Discount,Personal
+2014-07-01,14221446.07,Net Toll Revenue,NA
+2014-07-01,-195676.09,Volume Discount,Business
+2014-07-01,-607296.48,Volume Discount,Personal
+2014-08-01,14966505.56,Net Toll Revenue,NA
+2014-08-01,-180264.02,Volume Discount,Business
+2014-08-01,-596676.89,Volume Discount,Personal
+2014-09-01,11871753,Net Toll Revenue,NA
+2014-09-01,-195122.77000000002,Volume Discount,Business
+2014-09-01,-616763.63,Volume Discount,Personal
+2014-10-01,11730669.06,Net Toll Revenue,NA
+2014-10-01,-198342.08,Volume Discount,Business
+2014-10-01,-683702.52,Volume Discount,Personal
+2014-11-01,9845007.850000001,Net Toll Revenue,NA
+2014-11-01,-151367.96,Volume Discount,Business
+2014-11-01,-523470.64999999997,Volume Discount,Personal
+2014-12-01,9947267.41,Net Toll Revenue,NA
+2014-12-01,-179459.61000000002,Volume Discount,Business
+2014-12-01,-602246.05,Volume Discount,Personal
+2015-01-01,8657251.75,Net Toll Revenue,NA
+2015-01-01,-156722.07,Volume Discount,Business
+2015-01-01,-516720.86,Volume Discount,Personal
+2015-02-01,8078822.67,Net Toll Revenue,NA
+2015-02-01,-157380.43,Volume Discount,Business
+2015-02-01,-469148.27,Volume Discount,Personal
+2015-03-01,10056826.219999999,Net Toll Revenue,NA
+2015-03-01,-182010.44,Volume Discount,Business
+2015-03-01,-689778.51,Volume Discount,Personal
+2015-04-01,10530016.81,Net Toll Revenue,NA
+2015-04-01,-187845.44999999998,Volume Discount,Business
+2015-04-01,-664900.3,Volume Discount,Personal
+2015-05-01,11943905.33,Net Toll Revenue,NA
+2015-05-01,-179525.94999999998,Volume Discount,Business
+2015-05-01,-674612.9,Volume Discount,Personal
+2015-06-01,12637293.66,Net Toll Revenue,NA
+2015-06-01,-191820.19,Volume Discount,Business
+2015-06-01,-697644.73,Volume Discount,Personal
+2015-07-01,14960104.67,Net Toll Revenue,NA
+2015-07-01,-200372.66,Volume Discount,Business
+2015-07-01,-686696.76,Volume Discount,Personal
+2015-08-01,15137699.239999998,Net Toll Revenue,NA
+2015-08-01,-186411.77000000002,Volume Discount,Business
+2015-08-01,-661611.58,Volume Discount,Personal
+2015-09-01,12687323,Net Toll Revenue,NA
+2015-09-01,-180782.34,Volume Discount,Business
+2015-09-01,-674930.52,Volume Discount,Personal
+2015-10-01,12304135.77,Net Toll Revenue,NA
+2015-10-01,-200059.34999999998,Volume Discount,Business
+2015-10-01,-740163.69,Volume Discount,Personal
+2015-11-01,10630809.41,Net Toll Revenue,NA
+2015-11-01,-169461.19,Volume Discount,Business
+2015-11-01,-620559.01,Volume Discount,Personal
+2015-12-01,10531086.88,Net Toll Revenue,NA
+2015-12-01,-186219.07,Volume Discount,Business
+2015-12-01,-682940.1,Volume Discount,Personal
+2016-01-01,9470025.860000001,Net Toll Revenue,NA
+2016-01-01,-165535.58,Volume Discount,Business
+2016-01-01,-625314.66,Volume Discount,Personal
+2016-02-01,9417799.96,Net Toll Revenue,NA
+2016-02-01,-160158.25,Volume Discount,Business
+2016-02-01,-622908.16,Volume Discount,Personal
+2016-03-01,10662964.370000001,Net Toll Revenue,NA
+2016-03-01,-196258.88999999998,Volume Discount,Business
+2016-03-01,-757062.2699999999,Volume Discount,Personal
+2016-04-01,10871783.92,Net Toll Revenue,NA
+2016-04-01,-181900.08,Volume Discount,Business
+2016-04-01,-689631.57,Volume Discount,Personal
+2016-05-01,12283540.31,Net Toll Revenue,NA
+2016-05-01,-194701.94,Volume Discount,Business
+2016-05-01,-740795.2899999999,Volume Discount,Personal
+2016-06-01,13321033.26,Net Toll Revenue,NA
+2016-06-01,-208670.46,Volume Discount,Business
+2016-06-01,-764248.88,Volume Discount,Personal
+2016-07-01,15272205.53,Net Toll Revenue,NA
+2016-07-01,-182944.36,Volume Discount,Business
+2016-07-01,-682664.51,Volume Discount,Personal
+2016-08-01,15821383.41,Net Toll Revenue,NA
+2016-08-01,-207849.76,Volume Discount,Business
+2016-08-01,-790426.02,Volume Discount,Personal
+2016-09-01,13245888.06,Net Toll Revenue,NA
+2016-09-01,-182871.96,Volume Discount,Business
+2016-09-01,-741348.1799999999,Volume Discount,Personal
+2016-10-01,12553068.870000001,Net Toll Revenue,NA
+2016-10-01,-199794.77000000002,Volume Discount,Business
+2016-10-01,-755799.3300000001,Volume Discount,Personal
+2016-11-01,11092003.739999998,Net Toll Revenue,NA
+2016-11-01,-178276.9,Volume Discount,Business
+2016-11-01,-693248.04,Volume Discount,Personal
+2016-12-01,10591059.69,Net Toll Revenue,NA
+2016-12-01,-178605.93,Volume Discount,Business
+2016-12-01,-681795.4500000001,Volume Discount,Personal
+2017-01-01,10164305.84,Net Toll Revenue,NA
+2017-01-01,-179258.04,Volume Discount,Business
+2017-01-01,-698415.74,Volume Discount,Personal
+2017-02-01,8992910.92,Net Toll Revenue,NA
+2017-02-01,-151013.59,Volume Discount,Business
+2017-02-01,-520591.35,Volume Discount,Personal
+2017-03-01,10704179.97,Net Toll Revenue,NA
+2017-03-01,-192992.93,Volume Discount,Business
+2017-03-01,-795768.26,Volume Discount,Personal
+2017-04-01,11021129,Net Toll Revenue,NA
+2017-04-01,-177988,Volume Discount,Business
+2017-04-01,-713567.6799999999,Volume Discount,Personal
+2017-05-01,12830345.57,Net Toll Revenue,NA
+2017-05-01,-210953.37999999998,Volume Discount,Business
+2017-05-01,-836259.13,Volume Discount,Personal
+2017-06-01,13696909.25,Net Toll Revenue,NA
+2017-06-01,-204517.91,Volume Discount,Business
+2017-06-01,-828545.37,Volume Discount,Personal
+2017-07-01,15404673.17,Net Toll Revenue,NA
+2017-07-01,-187205.09,Volume Discount,Business
+2017-07-01,-721364.6799999999,Volume Discount,Personal
+2017-08-01,15979160.88,Net Toll Revenue,NA
+2017-08-01,-212644.81,Volume Discount,Business
+2017-08-01,-838152.06,Volume Discount,Personal
+2017-09-01,13352695.629999999,Net Toll Revenue,NA
+2017-09-01,-188866.83,Volume Discount,Business
+2017-09-01,-777186.24,Volume Discount,Personal
+2017-10-01,12912228.739999998,Net Toll Revenue,NA
+2017-10-01,-194906.37999999998,Volume Discount,Business
+2017-10-01,-822971.14,Volume Discount,Personal
+2017-11-01,11564680.91,Net Toll Revenue,NA
+2017-11-01,-179312.38999999998,Volume Discount,Business
+2017-11-01,-766980.2899999999,Volume Discount,Personal
+2017-12-01,10721805.5,Net Toll Revenue,NA
+2017-12-01,-178122.7,Volume Discount,Business
+2017-12-01,-701721.61,Volume Discount,Personal
+2018-01-01,10021019.89,Net Toll Revenue,NA
+2018-01-01,-176881.9,Volume Discount,Business
+2018-01-01,-730225.8300000001,Volume Discount,Personal
+2018-02-01,9609072.719999999,Net Toll Revenue,NA
+2018-02-01,-157762.3,Volume Discount,Business
+2018-02-01,-638094.23,Volume Discount,Personal
+2018-03-01,10727448.729999999,Net Toll Revenue,NA
+2018-03-01,-179958.46,Volume Discount,Business
+2018-03-01,-778416.6799999999,Volume Discount,Personal
+2018-04-01,11434468.19,Net Toll Revenue,NA
+2018-04-01,-189911.77000000002,Volume Discount,Business
+2018-04-01,-778846.04,Volume Discount,Personal
+2018-05-01,13238348.49,Net Toll Revenue,NA
+2018-05-01,-206155.43,Volume Discount,Business
+2018-05-01,-888158.48,Volume Discount,Personal
+2018-06-01,13887702.89,Net Toll Revenue,NA
+2018-06-01,-187538.93,Volume Discount,Business
+2018-06-01,-841361.98,Volume Discount,Personal
+2018-07-01,15679326.2,Net Toll Revenue,NA
+2018-07-01,-194688.97999999998,Volume Discount,Business
+2018-07-01,-797391.51,Volume Discount,Personal
+2018-08-01,16469830.18,Net Toll Revenue,NA
+2018-08-01,-204622.97999999998,Volume Discount,Business
+2018-08-01,-895269.5,Volume Discount,Personal
+2018-09-01,13424292.48,Net Toll Revenue,NA
+2018-09-01,-179599.24000000002,Volume Discount,Business
+2018-09-01,-775742.11,Volume Discount,Personal
+2018-10-01,13242531.84,Net Toll Revenue,NA
+2018-10-01,-203399.83,Volume Discount,Business
+2018-10-01,-905750.42,Volume Discount,Personal
+2018-11-01,11240969.89,Net Toll Revenue,NA
+2018-11-01,-174370.91999999998,Volume Discount,Business
+2018-11-01,-730505.62,Volume Discount,Personal
+2018-12-01,11179064.88,Net Toll Revenue,NA
+2018-12-01,-180748.55,Volume Discount,Business
+2018-12-01,-754357.11,Volume Discount,Personal
+2019-01-01,10245723.29,Net Toll Revenue,NA
+2019-01-01,-193686.18,Volume Discount,Business
+2019-01-01,-782388.15,Volume Discount,Personal
+2019-02-01,9670529.57,Net Toll Revenue,NA
+2019-02-01,-147918.2,Volume Discount,Business
+2019-02-01,-659705.8500000001,Volume Discount,Personal
+2019-03-01,11232064.239999998,Net Toll Revenue,NA
+2019-03-01,-187610.27000000002,Volume Discount,Business
+2019-03-01,-850515.54,Volume Discount,Personal
+2019-04-01,11715630.34,Net Toll Revenue,NA
+2019-04-01,-198136.74000000002,Volume Discount,Business
+2019-04-01,-837026.75,Volume Discount,Personal
+2019-05-01,13381318.47,Net Toll Revenue,NA
+2019-05-01,-208054.07,Volume Discount,Business
+2019-05-01,-914480.69,Volume Discount,Personal
+2019-06-01,13896710.94,Net Toll Revenue,NA
+2019-06-01,-183933.26,Volume Discount,Business
+2019-06-01,-832545.8400000001,Volume Discount,Personal
+2019-07-01,15960803.719999999,Net Toll Revenue,NA
+2019-07-01,-198702.68,Volume Discount,Business
+2019-07-01,-851322.9600000001,Volume Discount,Personal
+2019-08-01,16576468.47,Net Toll Revenue,NA
+2019-08-01,-206363.25,Volume Discount,Business
+2019-08-01,-891185.38,Volume Discount,Personal
+2019-09-01,13478204.1,Net Toll Revenue,NA
+2019-09-01,-183473.87999999998,Volume Discount,Business
+2019-09-01,-820661.24,Volume Discount,Personal
+2019-10-01,13571259.62,Net Toll Revenue,NA
+2019-10-01,-207982.05,Volume Discount,Business
+2019-10-01,-948880.56,Volume Discount,Personal
+2019-11-01,11429247.46,Net Toll Revenue,NA
+2019-11-01,-174130.91999999998,Volume Discount,Business
+2019-11-01,-771439.64,Volume Discount,Personal
+2019-12-01,10927923.26,Net Toll Revenue,NA
+2019-12-01,-161267.15,Volume Discount,Business
+2019-12-01,-723358.47,Volume Discount,Personal
+2020-01-01,10744389.05,Net Toll Revenue,NA
+2020-01-01,-199160.43,Volume Discount,Business
+2020-01-01,-823417.11,Volume Discount,Personal
+2020-02-01,10204812.05,Net Toll Revenue,NA
+2020-02-01,-138575.19,Volume Discount,Business
+2020-02-01,-689592.9600000001,Volume Discount,Personal

@@ -1,0 +1,165 @@
+---
+title: "Homework 3"
+author: "Antonio Jurlina"
+date: "3/12/2020"
+output: pdf_document
+fontsize: 10pt 
+geometry: margin=1in
+urlcolor: blue
+---
+
+### ECO532
+### Time Series Econometrics
+### Dr. Wiesen
+### HW3
+### Due: Friday, March 13  
+
+Directions: Students are encouraged to work together. However, students should think for themselves; do not simply copy what your classmate does. 
+
+**1.)** Consider the following $AR(1)$ process:
+
+$$ y_t = a_0 + a_1y_{t-1} + \varepsilon_t, $$
+$$t = -\infty,...,-1,0,1,...,\infty$$
+where $\varepsilon_t$ is white noise and $var(\varepsilon_t) = \sigma^2$.
+
++ (a) Using the "solution" to the first-order difference equation that we've covered in class, write this $AR(1)$ process as an $MA(\infty)$ process.
+
+$$y_t = \frac {a_0}{1-a_1} + \sum_{i=0}^{\infty}a_1^i\varepsilon_{t-i}$$
+
++ (b) Let $a_1 = 1$ so that $y_t$ has a unit root. Calculate $var(y_t)$. (Hint: let your answer to part (a) assist
+you.)
+
+$$var(y_t) = var(\frac {a_0}{1-a_1} + \sum_{i=0}^{\infty}a_1^i\varepsilon_{t-i})$$
+$$var(y_t) = var(\frac{a_0}{1-a_1})+var(\sum_{i=0}^{\infty}a_1^i\varepsilon_{t-i}) + 2cov(\frac{a_0}{1-a_1},\sum_{i=0}^{\infty}a_1^i\varepsilon_{t-i})$$
+$$var(y_t) = 0 + \infty * \sigma^2 + 0$$
+$$var(y_t) = \infty$$
+\newpage 
+
+**2.)** Consider the following $ARMA(1,2)$ process:
+
+$$y_t = a_o + a_1y_{t-1} + \varepsilon_t + b_1\varepsilon_{t-1} + b_2\varepsilon_{t-2}$$
+$$t = -\infty,...,-1,0,1,...,\infty$$
+
++ (a) Apply the “solution” to the first-order difference equation and write this $ARMA(2,1)$ process as an $MA(\infty)$ process (Hint: let $x_t = \varepsilon_t + b_1\varepsilon_{t-1} + b_2\varepsilon_{t-2}$).
+
+$$y_t = \frac {a_0}{1-a_1} + \sum_{i=0}^{\infty}a_1^ix_{t-i}$$
+$$y_t = \frac {a_0}{1-a_1} + \sum_{i=0}^{\infty}a_1^ix_{t-i}$$
+
+$$y_t = \frac {a_0}{1-a_1} + \sum_{i=0}^{\infty}a_1^i(\varepsilon_{t-i}+b_1\varepsilon_{t-i-1}+b_2\varepsilon_{t-i-2})$$
+
++ (b) Calculate the following: $\frac{\partial y_t}{\partial \varepsilon_t}$, $\frac{\partial y_{t+1}}{\partial \varepsilon_t}$, $\frac{\partial y_{t+2}}{\partial \varepsilon_t}$, $\frac{\partial y_{t+3}}{\partial \varepsilon_t}$, and $\frac{\partial y_{t+k}}{\partial \varepsilon_t}$ for a general $k$.
+
+$$\frac{\partial y_t}{\partial \varepsilon_t} = 1$$
+$$\frac{\partial y_{t+1}}{\partial \varepsilon_t} = \frac{\partial y_{t}}{\partial \varepsilon_{t-1}} = b_1 + a_1$$
+$$\frac{\partial y_{t+2}}{\partial \varepsilon_t} = \frac{\partial y_{t}}{\partial \varepsilon_{t-2}} = b_2 + a_1b_1 + a_1^2$$
+$$\frac{\partial y_{t+3}}{\partial \varepsilon_t} = \frac{\partial y_{t}}{\partial \varepsilon_{t-3}} = a_1b_2 + a_1^2b_1 + a_1^3$$
+$$\frac{\partial y_{t+k}}{\partial \varepsilon_t} = \frac{\partial y_{t}}{\partial \varepsilon_{t-k}} = a_1^{k-2}b_2 + a_1^{k-1}b_1 + a_1^k$$
+
++ (c) If $a_1 = 0.5$, $b_1 = 0.5$, and $b_2 = 2$ what does $\frac{\partial y_{t+k}}{\partial \varepsilon_t}$ approach as $k \to \infty$?
+
+$$\lim_{k \to \infty}(2*0.5^{k-2} + 0.5*0.5^{k-1} + 0.5^k) = 0$$
+
++ (d) If $a_1 = 0.5$, $b_1 = 2$, and $b_2 = 0.5$ what does $\frac{\partial y_{t+k}}{\partial \varepsilon_t}$ approach as $k \to \infty$?
+
+$$\lim_{k \to \infty}(0.5*0.5^{k-2} + 2*0.5^{k-1} + 0.5^k) = 0$$
+
++ (e) If $a_1 = 2$, $b_1 = 0.5$, and $b_2 = 0.5$ what does $\frac{\partial y_{t+k}}{\partial \varepsilon_t}$ approach as $k \to \infty$?
+
+$$\lim_{k \to \infty}(0.5*2^{k-2} + 0.5*2^{k-1} + 2^k) = \infty$$
+
++ (f) Are there finite values of $b_1$ or $b_2$ that would lead to explosive impulse response functions? Given this, do you think the moving average coefficients matters for stationarity?
+
+Since $a_1$ is the only of the three values being raised to the $k'th$ power, it is the only one that can lead to explosive impulse response functions. Therefore, $b_1$ and $b_2$ do not affect function explosiveness and I do not think moving average coefficients matter for stationarity, overall. 
+
+\newpage 
+
+**3.)** Consider the following process:
+
+$$y_t = 2.5y_{t-1} - 2y_{t-2} + 0.5y_{t-3} + \varepsilon_t$$
+$$t = -\infty,...,-1,0,1,...,\infty$$
+where $\varepsilon_t$ is white noise. Note that $y_t$ is non-stationary.
+
++ (a) Take the first difference of $y_t$ and write a time series model expression for $\Delta y_t = y_t-y_{t-1}$. (Hint: $\Delta y_t$ will follow an $AR(2)$ process.) 
+
+$$\Delta y_t = y_t - y_{t-1}$$
+$$\Delta y_t = 2.5y_{t-1} - 2y_{t-2}+0.5y_{t-3}+\varepsilon_t-y_{t-1}$$
+$$\Delta y_t = 1.5y_{t-1}-1.5y_{t-2}-0.5y_{t-2}+0.5y_{t-3}+\varepsilon_t$$
+$$\Delta y_t = 1.5(y_{t-1}-y_{t-2})-0.5(y_{t-2}-y_{t-3})+\varepsilon_t$$
+$$\Delta y_t = 1.5\Delta y_{t-1}-0.5\Delta y_{t-2}+\varepsilon_t$$
+
++ (b) We know that for an $AR(2)$ process to be stationary, $|a_1 \pm a_2| < 1$ and $|a_2|<1$. Using your answer to part (a), is $\Delta y_t$ stationary?
+
+Since $|1.5 - (-0.5)| = 1$, we can conclude that $\Delta y_t$ is not stationary.
+
++ (c) Take the second difference of $y_t$ and write a time series model expression for $\Delta \Delta y_t = \Delta y_t - \Delta y_{t-1}$. (Hint: $\Delta \Delta y_t$ will follow an $AR (1)$ process.)
+
+$$\Delta \Delta y_t = \Delta y_t - \Delta y_{t-1}$$
+$$\Delta \Delta y_t = 1.5\Delta y_{t-1} - 0.5\Delta y_{t-2} + \varepsilon_t - \Delta y_{t-1}$$
+$$\Delta \Delta y_t = 0.5\Delta y_{t-1} - 0.5\Delta y_{t-2} + \varepsilon_t$$
+$$\Delta \Delta y_t = 0.5\Delta \Delta y_{t-1} + \varepsilon_t$$
+
++ (d) Based on your answer to part (c), do you think $\Delta \Delta y_t$ is stationary?
+
+In this case, $a_1 = 0.5$ so $|a_1| < 1$ which confirms that $\Delta \Delta y_t$ is stationary.
+
++ (e) Is $y_t$ an $ARIMA(p,d,q)$ process? If so, what are $p$, $d$, and $q$ equal to?
+
+After taking two differences of $y_t$, it becomes stationary, and thus an $ARIMA(1,2,0)$ process. Notation simply indicates that there is one autoregressive lag, no moving average lags, and that it took two differences for stationarity to be reached. 
+
+\newpage
+
+**4.)** During the US presidential primaries, journalists frequently say that “politician [X] has significant ‘momentum’ moving forward because he/she won the previous primaries.” One way of interpreting this “momentum” is that winning a state’s primary at time $t$ makes it more likely for that politician to win future state primaries. Let $y_t$ be the margin of victory for a particular politician. For example, if the politician wins the time $t$ state primary by a $15$% margin, then $y_t=0.15$; if the politician loses the primary by a $10$% margin, then $y_t = -0.1$. Assume, for simplicity purposes, that there are only two politicians in the race, that only one state holds its primary at time $t$, and that each primary is equally spaced apart. Suppose the true/population expression for $y_t$ is
+
+$$y_t = 0.4y_{t-1}+0.1y_{t-2}+\varepsilon_t$$
+
+where $\varepsilon_t$ is white noise and $var(\varepsilon_t) = 0.2$.
+
++ (a) As functions of the information available at time $t$, predict the margins of victory of the next three state primaries. In other words, compute the one-step, two-step, and three-step forecasts: $\hat y_{t+1}$, $\hat y_{t+2}$, and $\hat y_{t+3}$.
+
+$$\hat y_{t+1} = E[y_{t+1}|y_t,y_{t-1},y_{t-2},...]$$
+$$\hat y_{t+1} = 0.4y_t+0.1y_{t-1}$$
+$$\hat y_{t+2} = E[y_{t+2}|y_{t+1},y_{t},y_{t-1},...]$$
+$$\hat y_{t+2} = 0.4\hat y_{t+1}+0.1y_{t}$$
+$$\hat y_{t+2} = 0.4(0.4y_t + 0.1y_{t-1})+0.1y_{t}$$ 
+$$\hat y_{t+2} = 0.26y_t + 0.04y_{t-1}$$ 
+$$\hat y_{t+3} = E[y_{t+3}|y_{t+2},y_{t+1},y_{t},...]$$
+$$\hat y_{t+3} = 0.4\hat y_{t+2}+0.1\hat y_{t+1}$$
+$$\hat y_{t+3} = 0.4(0.26y_t + 0.04y_{t-1})+0.1(0.4y_t+0.1y_{t-1})$$
+$$\hat y_{t+3} = 0.144y_t + 0.026y_{t-1}$$
+
++ (b) Compute the one-step, two-step, and three-step forecast errors: $u_{t+1}=y_{t+1}-\hat y_{t+1}$, $u_{t+2}=y_{t+2}-\hat y_{t+2}$, and $u_{t+3}=y_{t+3}-\hat y_{t+3}$
+
+$$u_{t+1}=y_{t+1}-\hat y_{t+1}$$
+$$u_{t+1}=0.4y_t + 0.1y_{t-1}+\varepsilon_{t+1}-0.4y_t-0.1y_{t-1}$$
+$$u_{t+1}=\varepsilon_{t+1}$$
+$$u_{t+2}=y_{t+2}-\hat y_{t+2}$$
+$$u_{t+2}=0.4y_{t+1} + 0.1y_{t}+\varepsilon_{t+2}- 0.4\hat y_{t+1}-0.1y_{t}$$
+$$u_{t+2}=0.4(y_{t+1}-\hat y_{t+1}) + \varepsilon_{t+2}$$
+$$u_{t+2}=0.4\varepsilon_{t+1} + \varepsilon_{t+2}$$
+$$u_{t+3}=y_{t+3}-\hat y_{t+3}$$
+$$u_{t+3}=0.4y_{t+2} + 0.1y_{t+1}+\varepsilon_{t+3}- 0.4\hat y_{t+2}-0.1\hat y_{t+1}$$
+$$u_{t+3}=0.4(y_{t+2}-\hat y_{t+2}) + 0.1(y_{t+1}-\hat y_{t+1})+\varepsilon_{t+3}$$
+$$u_{t+3} = 0.4(\varepsilon_{t+1}+\varepsilon_{t+2}) + 0.1\varepsilon_{t+1}+\varepsilon_{t+3}$$
+$$u_{t+3} = 0.26\varepsilon_{t+1} + 0.4\varepsilon_{t+2}+\varepsilon_{t+3}$$
+
++ (c) Give specific numerical values for the one-step, two-step, and three-step forecast error variances: $var(u_{t+1})$, $var(u_{t+2})$, and $var(u_{t+3})$.
+
+$$var(u_{t+1}) = var(\varepsilon_{t+1}) = 0.2$$
+$$var(u_{t+2}) = var(0.4\varepsilon_{t+1}+\varepsilon_{t+2}) = 0.232$$
+$$var(u_{t+2}) = var(0.26\varepsilon_{t+1} + 0.4\varepsilon_{t+2}+\varepsilon_{t+3}) = 0.24552$$
+
++ (d) Say the politician won the time t state’s primary by a margin of $20$% and lost the time $t-1$ state’s primary by a margin of $5$%. Give specific numerical forecasts for the margins of victory of the next three state primaries: $\hat y_{t+1}$, $\hat y_{t+2}$, and $\hat y_{t+3}$.
+
+$$\hat y_{t+1} = 0.4y_t+0.1y_{t-1}=0.4(0.2)+0.1(-0.05)=0.075$$
+$$\hat y_{t+2} = 0.26y_t+0.04y_{t-1}=0.26(0.2)+0.04(-0.05)=0.05$$
+$$\hat y_{t+3} = 0.144y_t+0.026y_{t-1}=0.144(0.2)+0.026(-0.05)=0.0275$$
+
+According to the $y_t$ model, the politican is expected to win the next three primaries by margins of $7.5$, $5$, and $2.75$ percent, respectively. 
+
+
+
+
+\vspace*{\fill}
+
+More at [github.com/antoniojurlina/ECO532](https://github.com/antoniojurlina/ECO532)
+
